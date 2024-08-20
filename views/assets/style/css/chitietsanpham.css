@@ -1,0 +1,226 @@
+body {
+    background-color: #f2f1f6;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container_ChiTietSP {
+    padding: 20px 30px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+}
+
+.product-details {
+    padding: 20px;
+    width: 78%;
+    float: left;
+}
+
+.thong-tin-doi-tra {
+    background-color: #ffffff; 
+    padding: 5px 20px;
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+}
+
+.card-image {
+    text-align: center;
+}
+
+.card-image img {
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.thong-tin-doi-tra p {
+    color: #326e51;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-info {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.product-info h3 {
+    margin-top: -2px;
+}
+
+.product-info img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.product-info table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.product-info table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-info table #left {
+    width: 300px; 
+    background-color: #f2f1f6;
+}
+
+.product-info ul li{
+    margin-bottom: 10px;
+}
+
+.item-giaohang {
+    margin-left: -20px;
+}
+
+.item-giaohang a {
+    display: flex; 
+    align-items: center;
+    color: #326e51;
+    text-decoration: none;
+}
+
+.item-giaohang a strong{
+    font-weight: bold;
+}
+
+.btn_xemthem_cungthuonghieu {
+    text-align: center;
+    padding: 5px;
+} 
+
+.btn_xemthem_cungthuonghieu a {
+    color: #326e51;
+    text-decoration: none;
+}
+
+#thanh-phan-san-pham #title {
+    font-weight: bold;
+}
+
+.product-image {
+    float: left; 
+    width: 30%; 
+    margin-right: 50px;
+    height: 300px;
+}
+
+.product-image img {
+    width: 100%; 
+    height: 300px;
+}
+
+.product-content {
+    float: left; 
+    width: 70%; 
+}
+
+#icon-giao-hang {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+#icon-giao-hang img {
+    width: 100px; 
+    margin-right: 10px; 
+}
+
+#icon-giao-hang p {
+    margin: 0;
+}
+
+#tom-tat-chinh strong {
+    color: #ff6600; 
+    font-weight: bold;
+}
+
+#tom-tat-chinh #title {
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: -10px;
+    line-height: 22px;
+}
+
+#tom-tat-chinh input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc; 
+}
+
+button {
+    margin-right: 10px; 
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+} 
+
+button:hover {
+    cursor: pointer;
+} 
+
+.product-info a {
+    margin-right: 10px; 
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+} 
+
+.product-info a:hover {
+    cursor: pointer;
+} 
+
+#gio-hang {
+    background-color: #326e52;
+    border: solid thin #326e52;
+    border-radius: 3px;
+    color: #fff;
+}
+
+#gio-hang i {
+    margin-right: 10px;
+} 
+
+#nowfree {
+    background-color: #ff6600;
+    border: solid thin #ff6600;
+    border-radius: 3px;
+}
+
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+header nav ul {
+    padding: 0; 
+    list-style-type: none; 
+}
+
+header nav ul li {
+    display: inline-block; 
+    margin-right: 40px; 
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #326e52;
+}
+
+.footer {
+    background-color: #fff;
+}

@@ -1,0 +1,386 @@
+.panner{
+    margin-top: 0px;
+   background-color: aqua;
+
+}
+#v3_header .logo_site {
+    float: left;
+    margin: 25px 30px 0 0;
+    width: 180px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+#search_site {
+    width: 305px;
+    float: left;
+    margin-left: 50px;
+}
+div {
+    display: block;
+}
+.block_demo_search a {
+    color: #00e736;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.test{
+    border-radius: 5px;
+    border: 1px solid aqua;
+}
+.input_search {
+    height: 36px;
+    background: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #666;
+    width: 80%;
+    float: left;
+    border: none;
+    outline-width: 0px;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color:#306E51;
+    padding-left: 50px;
+}
+.menu img{
+    margin-top: 25px;
+}
+.menutren{
+    float: right;
+    margin-right: 720px;
+    
+}
+.menutren a{
+    color:bisque;
+    margin-top: 5px;
+}
+.menu a{
+    text-decoration: none;
+    color:beige;
+    padding-right:  2px;
+}
+input{
+    border-radius: 10px;
+    background-color: #fff;
+    ;
+}
+#search_text {
+    width: 100%;
+    height: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    padding: 0 10px; 
+    font-size: 16px; /
+}
+#btn_search {
+    background-color: ForestGreen;
+    color: #fff; 
+    border: none; 
+    padding: 7px 20px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+#btn_search:hover {
+    background-color: MediumSeaGreen;
+}
+.menusearch{
+    margin-top: 5px;
+    float: right;
+    margin-right: 720px;
+}
+ input.btn{
+    background-color:#666;
+    color: #fff;
+}
+.dndk{
+    text-decoration: none;
+    float: right;
+    margin-right: 500px;
+    color: bisque;
+    margin-top: -50px;
+}
+.htch{
+    text-decoration: none;
+    float: right;
+    margin-right: 350px;
+    color: bisque;
+    margin-top: -50px;
+}
+.htkh{
+    text-decoration: none;
+    float: right;
+    margin-right:-230px ;
+    color: bisque;
+    margin-top: -50px;
+}
+.giohang{
+    text-decoration: none;
+    float: right;
+    margin-right:-300px ;
+    color: bisque;
+    margin-top: -50px;
+}
+
+.giohang a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.giohang svg {
+    width: 29px;
+    height: 29px;
+}
+
+#cart-count {
+    position: absolute;
+    top: -14px;
+    right: -13px;
+    color: #fff;
+    border-radius: 10px; 
+    padding: 5px; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+ 
+/*----- Phần menu -----*/
+
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#ffffff;
+    text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+} 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+/*----- css cho phần menu cha -----*/
+
+
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+/*----css cho menu con----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+nav ul li a {
+    color: rgb(8, 83, 76); 
+    text-decoration: none; /* Loại bỏ gạch chân */
+    padding: 6px; /* Khoảng cách lề */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Loại bỏ margin phải của mục cuối cùng */
+}
+#right-menu a{
+    color: rgb(8, 83, 76);
+    text-decoration: none;
+    padding: 6px; 
+}
+#right-menu svg{
+    color: rgb(8, 83, 76);
+}
+.col-md-2 a{
+    color: rgb(8, 83, 76);
+    text-decoration: none;
+    font-size: 12px;
+}
+.col-md-9 .row p{
+    font-size: 14px;
+}
+.col-md-3 .row p,b{
+    font-size: 14px;
+}
+.col-md-2{
+    text-align: center;
+}
+
+.col-md-3 ul li a{
+    color: #ffffff;
+    
+}
+.col-md-2 ul li a{
+    color: #ffffff;
+    
+}
+.col-md-3 ul{
+    list-style-type: none;
+    text-align: initial;
+}
+.col-md-2 ul{
+    list-style-type: none;
+    text-align: initial;
+}
+.col-md-2 button{
+    border-radius: 15px;
+    background-color: darkseagreen;
+    width: 100px;
+}
+.col-md-2 h6{
+    padding-top: 20;
+}
+.col-md-3 strong a{
+    color: #666;
+    text-decoration: none;
+}
+.col-md-3  a{
+    color: #326e51;
+    text-decoration: none;
+    font-size: 14px;
+}
+.input-container {
+    display: flex;
+    border: none;
+    border-radius: 25px;
+}
+
+#emailInput {
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 40px;
+    height: 40px;
+}
+
+#submitButton {
+    background-color: orange;
+    color: rgb(8, 83, 76);
+    border: none;
+    padding: 6px 10px;
+    font-size: 10px; 
+    
+    height: 40px;
+}
+h6{
+    color: #ffffff;
+}
+strong{
+    font-weight: bold;
+}
+
+.search-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.search-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    width: auto;
+}
+.search-item a{
+    color: #777;
+}
+#k1:hover,
+#k2:hover,
+#k3:hover,
+#k4:hover,
+#k5:hover,
+#k6:hover,
+#k7:hover,
+#k8:hover,
+#k9:hover,
+#k10:hover,
+#k11:hover,
+#k12:hover,
+#k13:hover,
+#k14:hover,
+#k15:hover
+ {
+    border-color:#6eeb15; /* Thay đổi màu viền khi di chuột vào */
+}
+
+.alert-container {
+    position: fixed;
+    top: 20px; 
+    right: 20px; 
+    z-index: 9999; 
+}
+
+.alert {
+    width: 300px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+}
+
+.alert-danger {
+    color: #721c24; 
+    background-color: #f8d7da; 
+    border-color: #f5c6cb; 
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+
+  
+
